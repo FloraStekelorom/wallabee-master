@@ -10,7 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_14_042322) do
+ActiveRecord::Schema.define(version: 2021_01_16_132934) do
+
+  create_table "products", force: :cascade do |t|
+    t.string "title"
+    t.string "description"
+    t.string "country"
+    t.string "city"
+    t.string "type_art"
+    t.string "category"
+    t.string "style"
+    t.string "condition"
+    t.string "image_url"
+    t.integer "price"
+    t.integer "profit_sharing"
+    t.integer "year"
+    t.integer "height"
+    t.integer "length"
+    t.integer "width"
+    t.boolean "signature"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_products_on_user_id"
+  end
 
   create_table "sessions", force: :cascade do |t|
     t.string "token"
