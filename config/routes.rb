@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     resources :sessions, only: [:create, :destroy]
     resources :products, only: [:index, :show]
 
+    #SESSIONS
+    delete '/sessions'   => 'sessions#destroy'
     get '/authenticated' => 'sessions#authenticated'
 
   end
