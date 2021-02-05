@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: 'static_pages#home'
 
   get '/login' => 'static_pages#login'
+  get '/product/:id' => 'static_pages#product'
 
   namespace :api do
     # Add routes below this line
