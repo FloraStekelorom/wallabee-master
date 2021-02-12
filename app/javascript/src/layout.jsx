@@ -66,16 +66,51 @@ class Layout extends React.Component {
               {this.props.children}
             </main>
 
-            <footer className="footer mt-auto pt-1 px-3 navbar navbar-expand navbar-dark bg-dark" role="navigation">
-              <div>
-                <p className="mr-3 mb-0 text-light footer-text">&#169; 2021 Wallabee. All Rights Reserved</p>
+            <footer className="mt-auto bg-dark">
+              <div className="mx-3 mt-3">
+                <div className="row">
+                  <div className="col-12 col-sm-4">
+                    <div className="px-4">
+                      <h3 className="text-light footer-box-title"><b>Discover Wallabee</b></h3>
+                      <ul className="list-unstyled">
+                        <li><a href="#" className="footer-menu footer-text">About Us</a></li>
+                        <li><a href="#" className="footer-menu footer-text">Newsroom</a></li>
+                        <li><a href="#" className="footer-menu footer-text">Careers</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-12 col-sm-4">
+                    <div className="px-4">
+                      <h3 className="text-light footer-box-title">Legal</h3>
+                      <ul className="list-unstyled">
+                        <li><a href="#" className="footer-menu footer-text">Terms and conditions</a></li>
+                        <li><a href="#" className="footer-menu footer-text">Privacy</a></li>
+                        <li><a href="#" className="footer-menu footer-text">Cookies</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-12 col-sm-4">
+                    <div className="px-4">
+                      <h3 className="text-light footer-box-title">Help</h3>
+                      <ul className="list-unstyled">
+                        <li><a href="#" className="footer-menu footer-text">Contact</a></li>
+                        <li><a href="#" className="footer-menu footer-text">FAQs</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="collapse navbar-collapse">
+              <div className="footer mt-auto pt-1 px-3 navbar navbar-expand navbar-dark" role="navigation">
+                <div>
+                  <p className="mr-3 mb-0 text-light footer-text">&#169; 2021 Wallabee. All Rights Reserved</p>
+                </div>
+                <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ml-auto">
-                  <a href="#" className="btn-lg"><i className="fa fa-facebook footer-menu"></i></a>
-                  <a href="#" className="btn-lg"><i className="fa fa-twitter footer-menu"></i></a>
-                  <a href="#" className="btn-lg"><i className="fa fa-instagram footer-menu"></i></a>
-                </ul>
+                    <a href="#" className="btn-lg"><i className="fa fa-facebook footer-menu"></i></a>
+                    <a href="#" className="btn-lg"><i className="fa fa-twitter footer-menu"></i></a>
+                    <a href="#" className="btn-lg"><i className="fa fa-instagram footer-menu"></i></a>
+                  </ul>
+                </div>
               </div>
             </footer>
           </div>
