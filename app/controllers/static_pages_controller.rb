@@ -23,6 +23,10 @@ class StaticPagesController < ApplicationController
     render 'privacy'
   end
 
+  def cookies
+    render 'cookies'
+  end
+
   def product
     @data = { product_id: params[:id] }.to_json
     render 'product'

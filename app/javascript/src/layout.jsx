@@ -84,7 +84,7 @@ class Layout extends React.Component {
                       <ul className="list-unstyled">
                         <li><a href={`/terms-and-conditions`} className="footer-menu footer-text">Terms and conditions</a></li>
                         <li><a href={`/privacy`} className="footer-menu footer-text">Privacy</a></li>
-                        <li><a href="#" className="footer-menu footer-text">Cookies</a></li>
+                        <li><a href={`/cookies`} className="footer-menu footer-text">Cookies</a></li>
                       </ul>
                     </div>
                   </div>
