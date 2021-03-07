@@ -7,6 +7,10 @@ class StaticPagesController < ApplicationController
     render 'login'
   end
 
+  def about
+    render 'about'
+  end
+
   def product
     @data = { product_id: params[:id] }.to_json
     render 'product'
