@@ -92,7 +92,7 @@ class Layout extends React.Component {
                     <div className="px-4">
                       <h3 className="text-light footer-box-title">Help</h3>
                       <ul className="list-unstyled">
-                        <li><a href="#" className="footer-menu footer-text">Contact</a></li>
+                        <li><a href={`/contact`} className="footer-menu footer-text">Contact</a></li>
                         <li><a href="#" className="footer-menu footer-text">FAQs</a></li>
                       </ul>
                     </div>

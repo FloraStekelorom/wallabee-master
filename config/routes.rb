@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/terms-and-conditions' => 'static_pages#terms'
   get '/privacy' => 'static_pages#privacy'
   get '/cookies' => 'static_pages#cookies'
-
+  get '/contact' => 'static_pages#contact'
 
   namespace :api do
     # Add routes below this line
