@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/privacy' => 'static_pages#privacy'
   get '/cookies' => 'static_pages#cookies'
   get '/contact' => 'static_pages#contact'
+  get '/faqs' => 'static_pages#faqs'
 
   namespace :api do
     # Add routes below this line
