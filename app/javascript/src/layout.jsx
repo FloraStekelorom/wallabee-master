@@ -74,8 +74,7 @@ class Layout extends React.Component {
                       <h3 className="text-light footer-box-title"><b>Discover Wallabee</b></h3>
                       <ul className="list-unstyled">
                         <li><a href={`/about-us`} className="footer-menu footer-text">About Us</a></li>
-                        <li><a href="#" className="footer-menu footer-text">Newsroom</a></li>
-                        <li><a href="#" className="footer-menu footer-text">Careers</a></li>
+                        <li><a href={`/careers`} className="footer-menu footer-text">Careers</a></li>
                       </ul>
                     </div>
                   </div>

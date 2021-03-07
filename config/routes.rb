@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/login' => 'static_pages#login'
   get '/product/:id' => 'static_pages#product'
   get '/about-us' => 'static_pages#about'
+  get '/careers' => 'static_pages#careers'
 
   namespace :api do
     # Add routes below this line
