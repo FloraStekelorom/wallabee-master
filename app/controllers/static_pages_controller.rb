@@ -19,6 +19,9 @@ class StaticPagesController < ApplicationController
     render 'terms'
   end
 
+  def privacy
+    render 'privacy'
+  end
 
   def product
     @data = { product_id: params[:id] }.to_json

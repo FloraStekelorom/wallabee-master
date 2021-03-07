@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/about-us' => 'static_pages#about'
   get '/careers' => 'static_pages#careers'
   get '/terms-and-conditions' => 'static_pages#terms'
+  get '/privacy' => 'static_pages#privacy'
 
   namespace :api do
     # Add routes below this line
