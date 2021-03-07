@@ -15,6 +15,11 @@ class StaticPagesController < ApplicationController
     render 'careers'
   end
 
+  def terms
+    render 'terms'
+  end
+
+
   def product
     @data = { product_id: params[:id] }.to_json
     render 'product'

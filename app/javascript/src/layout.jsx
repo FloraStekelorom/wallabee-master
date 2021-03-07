@@ -82,7 +82,7 @@ class Layout extends React.Component {
                     <div className="px-4">
                       <h3 className="text-light footer-box-title">Legal</h3>
                       <ul className="list-unstyled">
-                        <li><a href="#" className="footer-menu footer-text">Terms and conditions</a></li>
+                        <li><a href={`/terms-and-conditions`} className="footer-menu footer-text">Terms and conditions</a></li>
                         <li><a href="#" className="footer-menu footer-text">Privacy</a></li>
                         <li><a href="#" className="footer-menu footer-text">Cookies</a></li>
                       </ul>
